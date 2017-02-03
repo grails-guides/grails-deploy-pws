@@ -1,0 +1,26 @@
+Once you have the *cf CLI* installed you will be able to login from your terminal.
+
+[source,bash]
+----
+$ cf login
+API endpoint: https://api.run.pivotal.io
+
+Email> john@email.com
+
+Password>
+Authenticating...
+OK
+
+Select an org (or press enter to skip):
+1. guides-grails-org
+
+Org> 1
+Targeted org guides-grails-org
+
+Targeted space development
+
+API endpoint:   https://api.run.pivotal.io (API version: 2.69.0)
+User:           john@email.com
+Org:            guides-grails-org
+Space:          development
+----

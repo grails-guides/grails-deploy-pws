@@ -1,8 +1,13 @@
-gettingStarted: 
+gettingStarted:
   title: Getting Started
   requirements: What you will need
   howto: How to complete the guide
-writingTheApp:
-  title: Writing the Application
-runningTheApp:
-  title: Running the Application
+setupPWS:
+  title: Setup PWS Account and install cf CLI
+login:
+  title: Deploy on PWS with cf CLI
+  createService: Create a MySQL Service
+  cfManifest: Create CF Manifest file
+  cfPush: Deploy the app
+deployWithGradle:
+  title: Deploy on PWS with Gradle

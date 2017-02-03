@@ -1,0 +1,10 @@
+We create a configuration file which we will use to push the application to PWS. The configuration file
+references the MySQL service which we created in the previous section.
+
+[source,groovy]
+./manifest.yml
+----
+include::{sourceDir}/manifest.yml[indent=0]
+----
+
+NOTE: You war name maybe different, make sure you configure the correct path

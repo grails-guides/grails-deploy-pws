@@ -1,0 +1,2 @@
+Follow the instructions to https://docs.run.pivotal.io/starting/index.html[set up your PWS account and download the cf CLI].
+You can create a free trial for your organization .

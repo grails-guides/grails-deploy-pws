@@ -2,7 +2,7 @@
 grails:
     profile: web
     codegen:
-        defaultPackage: grails.deploy.pws
+        defaultPackage: grailsguidepws
     spring:
         transactionManagement:
             proxies: false

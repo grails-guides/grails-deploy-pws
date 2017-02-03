@@ -1,0 +1,45 @@
+You can see a list of every available service with the next command:
+
+[source,bash]
+----
+$ cf marketplace
+----
+
+Let's create a MySQL database-as-a-service for our Grails application.
+
+NOTE: cleardb is database-as-a-service for MySQL-powered apps
+
+[source,bash]
+----
+$ cf create-service cleardb spark grailsguidesmysql
+Creating service instance grailsguidesmysql in org guides-grails-org / space development as john@email.com...
+OK
+----
+
+In production we are going to use the MySQL service which we just created.
+
+Let's create a production configuration file:
+
+[source,groovy]
+./grails-app/conf/application-production.groovy
+----
+include::{sourceDir}/grails-app/conf/application-production.groovy[indent=0]
+----
+
+Remove from `application.yml` the environment production datasource block. We define production datasource configuration in `application-production.groovy`
+
+That it is to say:
+
+[source,groovy]
+./grails-app/conf/application.yml
+----
+include::{sourceDir}/grails-app/conf/application.yml[indent=0,lines="91..107"]
+----
+
+Add MySQL as a runtime dependency to Gradle dependencies block.
+
+[source,groovy]
+./build.gradle
+----
+include::{sourceDir}/build.gradle[indent=0,lines=54]
+----

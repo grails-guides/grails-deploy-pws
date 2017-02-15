@@ -11,3 +11,5 @@ login:
   cfPush: Deploy the app
 deployWithGradle:
   title: Deploy on PWS with Gradle
+helpWithGrails:
+  title: Do you need help with Grails?

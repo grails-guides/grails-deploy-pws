@@ -7,4 +7,4 @@ references the MySQL service which we created in the previous section.
 include::{sourceDir}/manifest.yml[indent=0]
 ----
 
-NOTE: You war name maybe different, make sure you configure the correct path. Also remember to use a different host name if you use the same one used in the guide you will get an error message teling you that the host name is already being used.
+NOTE: You war name maybe different, make sure you configure the correct path. Also remember to use a different host name if you use the same one used in the guide you will get an error message telling you that the host name is already being used.

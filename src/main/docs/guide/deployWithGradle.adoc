@@ -27,14 +27,14 @@ include::{sourceDir}/build.gradle[indent=0,lines=72..88]
 
 
 Generate a war file:
-[bash, source]
+[source, bash]
 ----
 ./grailsw war
 ----
 
 Deploy with gradle
 
-[bash, source]
+[source, bash]
 ----
 ./gradlew cfPush
 ----

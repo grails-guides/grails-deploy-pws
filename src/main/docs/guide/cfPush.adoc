@@ -1,12 +1,12 @@
 Generate a war file:
-[bash, source]
+[source, bash]
 ----
 ./grailsw war
 ----
 
 Run `cf push`. If everything is successful you should see an output such as:
 
-[bash, source]
+[source, bash]
 ----
 $ cf push
 Using manifest file /Users/grails/git/grailsguidepws/manifest.yml

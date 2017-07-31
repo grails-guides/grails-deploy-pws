@@ -26,15 +26,16 @@ Let's create a production configuration file:
 include::{sourceDir}/grails-app/conf/application-production.groovy[indent=0]
 ----
 
-Remove from `application.yml` the environment production datasource block. We define production datasource configuration in `application-production.groovy`
+Remove the environment production datasource block from `application.yml`. We define production datasource configuration in `application-production.groovy`
 
 That it is to say:
 
 [source,groovy]
 ./grails-app/conf/application.yml
 ----
-include::{sourceDir}/grails-app/conf/application.yml[indent=0,lines="91..107"]
+include::{sourceDir}/grails-app/conf/application.yml[indent=0, tag=envBlock]
 ----
+
 
 Add MySQL as a runtime dependency to Gradle dependencies block.
 

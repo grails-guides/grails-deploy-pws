@@ -22,7 +22,7 @@ Configure your app services:
 [source,groovy]
 ./build.gradle
 ----
-include::{sourceDir}/build.gradle[indent=0,lines=72..88]
+include::{sourceDir}/build.gradle[indent=0,lines=72..106]
 ----
 
 
